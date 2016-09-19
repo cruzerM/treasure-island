@@ -1,0 +1,8 @@
+#! /bin/bash
+
+
+gcc -c main.c fonction.c menucine.c init.c richard.c bonus1.c bonus2.c -lalleg
+clear
+gcc main.o fonction.o menucine.o init.o richard.o bonus1.o bonus2.o -o Treasure_Island -lalleg
+clear
+./final
